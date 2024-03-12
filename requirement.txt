@@ -1,0 +1,8 @@
+## These are the requirements to run the codes
+
+pip install os
+pip install opencv -python
+pip install numpy
+pip install keras
+pip install tensorflow
+pip install scikit-learn
