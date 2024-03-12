@@ -7,6 +7,11 @@ from keras.utils import to_categorical
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 
+''' 
+Dataset for this code can be downloaded from Kaggle. ( https://www.kaggle.com/datasets/phylake1337/fire-dataset?resource=download )
+After downloading the Dataset, Put the folder named " fire_dataset " in the same directory as train.py.
+'''
+
 # Define parameters
 fire_dir = "fire_dataset\\fire_images"
 non_fire_dir = "fire_dataset\\non_fire_images"
